@@ -138,4 +138,5 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+	text-color: black;
 }

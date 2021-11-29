@@ -113,9 +113,9 @@ footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: gray;
+    background-color: #565656;
     clear: both;
-    color: wheat;
+    color: #c2ac70;
     font-weight: bold;
     text-align: center;
 }
@@ -131,12 +131,11 @@ footer a:link {
 }
 
 footer a:visited {
-    color: navy;
+    color: white;
     background-color: grey;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
-	text-color: black;
 }

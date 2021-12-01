@@ -90,10 +90,11 @@ aside {
     margin: 0 5px 0 5px;
     padding: 10px;
     float: right;
+	text-align: center;
 }
 
 aside p {
-    font-style: italic;
+    font-style: Lato,sans-serif;
     font-size: 0.9em;
 }
 
@@ -105,6 +106,12 @@ h2 {
 
 h3 {
     text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+h4 {
+	text-align: center;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }

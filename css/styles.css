@@ -94,7 +94,7 @@ aside {
 }
 
 aside p {
-    font-style: Verdana;
+    font-style: normal;
     font-size: 0.9em;
 }
 
@@ -136,12 +136,10 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: grey;
 }
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -157,7 +155,21 @@ footer {
     font-weight: bold;
     text-align: center;
 }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
 
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 #wrapper {
     width: 930px;
     margin-bottom: 10px;

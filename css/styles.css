@@ -96,6 +96,7 @@ aside {
 aside p {
     font-style: normal;
     font-size: 0.9em;
+	padding: 5px;
 }
 
 h2 {
